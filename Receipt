@@ -4,7 +4,8 @@
 ---            phone number            ---
 ---          type of receipt           ---
 ---           date and time            ---
---- Quantity    Description   Amount   ---
+---           Unique Number            ---
+--- Quantity    Description     Amount ---
 ---   10        Apple           4.99   ---
 ---    4        Cookies         8.79   ---
 ---    6        Chips           35.09  ---
@@ -27,6 +28,7 @@ then the address of where the items were purchased
 then the phone number of the buisness
 then what type of receipt(Ex. cash receipt)
 then the date of the purchase and the time
+then a unique umber for tracking
 then in a three column the 
 Quantity      Description     Amount
 
