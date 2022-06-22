@@ -1,1 +1,8 @@
+Scan items using bar code or any other type of scan
+Once scanned check for price and if any tax is applicable
 
+'item' is ________
+check 'item' price, inital charge
+if 'item' = non taxable move on
+else 'item' taxable + 'n' amount
+if 'unit item' do (quantity x unit price)
