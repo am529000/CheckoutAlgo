@@ -2,7 +2,64 @@ Scan items using bar code or any other type of scan
 Once scanned check for price and if any tax is applicable
 
 'item' is ________
+--(input items name)
+check for Unit item or single item 
+--(ex. apples = unit, box of cereal = single)
 check 'item' price, inital charge
-if 'item' = non taxable move on
-else 'item' taxable + 'n' amount
+--(check items pricing (ex. Box of Cereal: 6.89), that is the intial amunt without tax)
+if 'item' = non taxable, go to next item
+--(Check if item has a sales tax if not then move onto next item for scan)
+else 'item' = taxable, store items price for later
+--(if item has tax then hold onto that amount if so)
 if 'unit item' do (quantity x unit price)
+ 
+ 
+ 
+ 1. Scan item
+ 2. check for a single item or a qauntity item
+ 
+ 3. if single then
+ 4. check item initial price
+ 5. if taxable, keep price for later for overall total
+ 6. if non-taxable, go to next
+ 
+ 7. if quantity then 
+ 8. check units price
+ 9. if taxable save total qauntity x units price for overall total
+10. if non-taxable, go to next
+
+11. once all items are added, go to all taxable items and added 'n' amount of tax (ex. total = 54.89 x 0.13 = 7.1357)
+12. input tax amount($) in column for tax amount(n)
+13. add tax amount to total price
+14. then input total value into the Total column
+
+
+
+
+--Item is scanned
+item unqiue 9 digit id
+Print "Item name"
+Print "Item price"
+Print "Item quantity"
+Print "item/price/quanity, item/price/quantity, item/price/quantity"
+--Give item a variable if its taxable (n)
+print "Cereal/7.89/1 (n), Apples/1.99/8, Dog Food/32.99/1 (n)"
+for unit items must input quantity (quantity x unit price)
+take taxable(n) items and added (n) amount of tax to those items
+take that amount and add to subtotal
+Print (ex. subtotal: 46.51
+           tax:       6.49
+           total:    53.00)
+print"cash or card"
+input = Print "Cash Given =  100.00"
+Print "change" input = 47.00
+print "Thank you!"
+quit()
+
+
+Inventory
+Item ID, 276537473
+Item ID, 676354921
+
+ID = name, price
+
