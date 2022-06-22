@@ -50,11 +50,13 @@ take that amount and add to subtotal
 Print (ex. subtotal: 46.51
            tax:       6.49
            total:    53.00)
-print"cash or card"
+print "cash or card"
 input = Print "Cash Given =  100.00"
 Print "change" input = 47.00
 print "Thank you!"
 quit()
+else:
+Print "Invalid Option"
 
 
 Inventory
