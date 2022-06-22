@@ -1,1 +1,36 @@
+------------------------------------------
+--- Thank you for shopping at ________ ---
+--- address 157 imperial drive north   ---
+---            phone number            ---
+---          type of receipt           ---
+---           date and time            ---
+--- Quantity    Description   Amount   ---
+---   10        Apple           4.99   ---
+---    4        Cookies         8.79   ---
+---    6        Chips           35.09  ---
+------------------------------------------
+---             Subtotal        48.87  ---
+---             Tax (n)          6.35  ---
+---             Total           55.22  ---
+------------------------------------------
+---(cash given)        100             ---
+---(change)            44.76           ---
+---(card number)       --- --- --61    ---
+------------------------------------------
+---             Thank You!             ---
+------------------------------------------
 
+
+
+on the top would be the shop name
+then the address of where the items were purchased
+then the phone number of the buisness
+then what type of receipt(Ex. cash receipt)
+then the date of the purchase and the time
+then in a three column the 
+Quantity      Description     Amount
+
+with the subtotal under description after all are said with the number under amount
+then tax under subtaotal with number under amount
+the the final total under amount
+with how much cash if cash then add amount given and if change was given back or last 6 digits of card number (credit/debit)
