@@ -16,7 +16,7 @@ if 'unit item' do (quantity x unit price)
  
  
  1. Scan item
- 2. check for a single item or a qauntity item
+ 2. check for a single item or a quantity item
  
  3. if single then
  4. check item initial price
@@ -41,7 +41,7 @@ item unqiue 9 digit id
 Print "Item name"
 Print "Item price"
 Print "Item quantity"
-Print "item/price/quanity, item/price/quantity, item/price/quantity"
+Print "item/price/quantity, item/price/quantity, item/price/quantity"
 --Give item a variable if its taxable (n)
 print "Cereal/7.89/1 (n), Apples/1.99/8, Dog Food/32.99/1 (n)"
 for unit items must input quantity (quantity x unit price)
