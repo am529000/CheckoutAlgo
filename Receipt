@@ -33,6 +33,6 @@ then in a three column the
 Quantity      Description     Amount
 
 with the subtotal under description after all are said with the number under amount
-then tax under subtaotal with number under amount
+then tax under subtotal with number under amount
 the the final total under amount
 with how much cash if cash then add amount given and if change was given back or last 6 digits of card number (credit/debit)
